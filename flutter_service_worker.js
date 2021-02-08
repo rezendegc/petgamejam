@@ -3,12 +3,20 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "index.html": "38a6d424c4220a9d7df9f7d26b5ad1e5",
-"/": "38a6d424c4220a9d7df9f7d26b5ad1e5",
+  "index.html": "a3d44177892f711e74dfc9d484482dd9",
+"/": "a3d44177892f711e74dfc9d484482dd9",
 "manifest.json": "c76cda6f8516ff9d0de26cdac7869f01",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "assets/NOTICES": "1f0d0630b02d757017b4c7857c9d11d4",
+"assets/assets/audio/swing.wav": "12dc62af3096f24cc5ae2fb14f50ae67",
+"assets/assets/audio/slime_hit2.wav": "7b5ef94c771ff21c084e69bf8a7a02fb",
+"assets/assets/audio/fireball.wav": "0502bf4e41d1e7dddcd6fdec8a95a39e",
+"assets/assets/audio/goblin_hit.wav": "6257bd4cdc21e7cd4f69d21f688e814a",
+"assets/assets/audio/dungeon.mp3": "e485e2233065f9572d8b7cc808460119",
+"assets/assets/audio/village.mp3": "3ae528d390a1ca424c4879fa1e9f045b",
+"assets/assets/audio/slime_hit3.wav": "8b5be09617865b89fa557cdfa907bc35",
+"assets/assets/audio/slime_hit1.wav": "c66468724e7aa57dfda53b9a83761eb5",
 "assets/assets/images/blue_button2.png": "b2ac54312d3b566d324f461aa50b8f5b",
 "assets/assets/images/tile/floor_5.png": "6d63b1d77dcc35d4f7beb91125851e29",
 "assets/assets/images/tile/floor_7.png": "7ba4503a62a1b242f05b5244e7b0dae4",
@@ -94,9 +102,9 @@ const RESOURCES = {
 "assets/assets/images/tiled/village.png": "34943c2fb57ff98c6db83d92349c6b82",
 "assets/assets/images/tiled/map1.json": "7b6520a0225a066957f76966c8a922e6",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/AssetManifest.json": "e9e3caaa2d0ce617488c32f403a1967d",
+"assets/AssetManifest.json": "e0ab4afb37c08094a13dec74fd0aea96",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"main.dart.js": "203942c29336e2584df9a8391779aa4c",
+"main.dart.js": "fe9bbf0f9f6137bdbbf64594f52e699d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "f012db2f99daaf9b85d64670076d5c2a"
 };
