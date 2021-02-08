@@ -1,4 +1,12 @@
 { "columns":19,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"",
+         "target":"."
+        }
+    },
  "image":"village.png",
  "imageheight":720,
  "imagewidth":304,
@@ -14,7 +22,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -40,7 +47,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -66,7 +72,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -92,7 +97,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -118,7 +122,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -144,7 +147,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -170,7 +172,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -196,7 +197,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -222,7 +222,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -248,7 +247,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -274,7 +272,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -300,7 +297,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -326,7 +322,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -352,7 +347,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -378,7 +372,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -404,7 +397,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -470,7 +462,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -497,7 +488,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -524,7 +514,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -550,7 +539,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -580,7 +568,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -647,7 +634,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -674,7 +660,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -705,7 +690,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -731,7 +715,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -761,7 +744,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -787,7 +769,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -813,7 +794,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -839,7 +819,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -865,7 +844,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -891,7 +869,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -917,7 +894,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -943,7 +919,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -969,7 +944,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -995,7 +969,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1021,7 +994,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1047,7 +1019,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1113,7 +1084,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1139,7 +1109,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1205,7 +1174,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1231,7 +1199,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1257,7 +1224,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1283,7 +1249,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1309,7 +1274,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1335,7 +1299,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1361,7 +1324,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1387,7 +1349,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1400,6 +1361,32 @@
                      "width":10.125,
                      "x":-0.0625,
                      "y":0.0625
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            }
+        }, 
+        {
+         "id":348,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":14.7272727272727,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":13.8181818181818,
+                     "x":1.27272727272727,
+                     "y":0.181818181818182
                     }],
              "opacity":1,
              "type":"objectgroup",
@@ -1449,6 +1436,110 @@
          "type":"above"
         }, 
         {
+         "id":365,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":15.8181818181818,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":10.8181818181818,
+                     "x":5.09090909090909,
+                     "y":0.181818181818182
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            }
+        }, 
+        {
+         "id":366,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":13.0909090909091,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":11.3636363636364,
+                     "x":0.181818181818182,
+                     "y":1.90909090909091
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            }
+        }, 
+        {
+         "id":367,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":13.8181818181818,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":10.3636363636364,
+                     "x":5.45454545454546,
+                     "y":0.818181818181818
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            }
+        }, 
+        {
+         "id":368,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":12.8181818181818,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":12.2727272727273,
+                     "x":-0.181818181818182,
+                     "y":2.18181818181818
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            }
+        }, 
+        {
          "id":370,
          "type":"above"
         }, 
@@ -1493,7 +1584,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1519,7 +1609,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1545,7 +1634,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1571,7 +1659,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1597,7 +1684,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1623,7 +1709,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1649,7 +1734,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1675,7 +1759,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1701,7 +1784,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1727,7 +1809,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1853,7 +1934,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1880,7 +1960,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1907,7 +1986,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1934,7 +2012,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1961,7 +2038,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1984,51 +2060,10 @@
          "type":"above"
         }, 
         {
-         "id":437,
-         "type":"above"
-        }, 
-        {
-         "id":439,
-         "type":"above"
-        }, 
-        {
-         "id":440,
-         "type":"above"
-        }, 
-        {
-         "id":442,
-         "type":"above"
-        }, 
-        {
-         "id":443,
-         "type":"above"
-        }, 
-        {
-         "id":445,
-         "type":"above"
-        }, 
-        {
-         "id":446,
-         "type":"above"
-        }, 
-        {
-         "id":447,
-         "type":"above"
-        }, 
-        {
-         "id":448,
-         "type":"above"
-        }, 
-        {
-         "id":450,
-         "type":"above"
-        }, 
-        {
          "id":451,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2047,43 +2082,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
-        }, 
-        {
-         "id":456,
-         "type":"above"
-        }, 
-        {
-         "id":458,
-         "type":"above"
-        }, 
-        {
-         "id":459,
-         "type":"above"
-        }, 
-        {
-         "id":461,
-         "type":"above"
-        }, 
-        {
-         "id":462,
-         "type":"above"
-        }, 
-        {
-         "id":464,
-         "type":"above"
-        }, 
-        {
-         "id":465,
-         "type":"above"
+            }
         }, 
         {
          "id":466,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2102,15 +2107,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":467,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2129,15 +2132,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":469,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2156,15 +2157,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":470,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2183,8 +2182,7 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":475,
@@ -2211,7 +2209,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":3,
              "name":"",
              "objects":[
                     {
@@ -2238,7 +2235,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2265,7 +2261,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2292,7 +2287,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2319,7 +2313,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2346,7 +2339,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":3,
              "name":"",
              "objects":[
                     {
@@ -2373,7 +2365,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2400,7 +2391,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2459,7 +2449,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2486,7 +2475,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2513,7 +2501,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2540,7 +2527,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2567,7 +2553,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":3,
              "name":"",
              "objects":[
                     {
@@ -2594,7 +2579,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2621,7 +2605,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2648,7 +2631,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2683,27 +2665,10 @@
          "type":"above"
         }, 
         {
-         "id":513,
-         "type":"above"
-        }, 
-        {
-         "id":514,
-         "type":"above"
-        }, 
-        {
-         "id":516,
-         "type":"above"
-        }, 
-        {
-         "id":517,
-         "type":"above"
-        }, 
-        {
          "id":518,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2722,15 +2687,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":519,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2749,15 +2712,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":520,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2783,7 +2744,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2802,15 +2762,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":522,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2829,15 +2787,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":523,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2856,15 +2812,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":524,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2890,7 +2844,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2909,39 +2862,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
-        }, 
-        {
-         "id":526,
-         "type":"above"
-        }, 
-        {
-         "id":528,
-         "type":"above"
-        }, 
-        {
-         "id":532,
-         "type":"above"
-        }, 
-        {
-         "id":533,
-         "type":"above"
-        }, 
-        {
-         "id":535,
-         "type":"above"
-        }, 
-        {
-         "id":536,
-         "type":"above"
+            }
         }, 
         {
          "id":537,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -2960,15 +2887,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":538,
          "objectgroup":
             {
              "draworder":"index",
-             "id":3,
              "name":"",
              "objects":[
                     {
@@ -2987,15 +2912,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":540,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -3014,15 +2937,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":541,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -3041,15 +2962,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":542,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -3068,15 +2987,13 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
+            }
         }, 
         {
          "id":544,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -3095,16 +3012,7 @@
              "visible":true,
              "x":0,
              "y":0
-            },
-         "type":"above"
-        }, 
-        {
-         "id":545,
-         "type":"above"
-        }, 
-        {
-         "id":547,
-         "type":"above"
+            }
         }],
  "tilewidth":16,
  "type":"tileset",
