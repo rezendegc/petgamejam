@@ -40,10 +40,10 @@ class SlimeGreen extends SimpleEnemy {
           closePlayer: (player) {
             execAttack();
           },
-          radiusVision: DungeonMap.tileSize * 3,
+          radiusVision: DungeonMap.tileSize * 4,
         );
       },
-      radiusVision: DungeonMap.tileSize * 3,
+      radiusVision: DungeonMap.tileSize * 4,
     );
   }
 
@@ -83,6 +83,7 @@ class SlimeGreen extends SimpleEnemy {
 
   @override
   void receiveDamage(double damage, dynamic from) {
+    Flame.audio.play('slime_hit1.wav');
     this.showDamage(
       damage,
       config: TextConfig(

@@ -31,3 +31,11 @@ flutter:
     - assets/images/tile/
     - assets/images/tiled/
     - assets/images/itens/
+    - assets/audio/village.mp3
+    - assets/audio/dungeon.mp3
+    - assets/audio/swing.wav
+    - assets/audio/fireball.wav
+    - assets/audio/slime_hit1.wav
+    - assets/audio/slime_hit2.wav
+    - assets/audio/slime_hit3.wav
+    - assets/audio/goblin_hit.wav

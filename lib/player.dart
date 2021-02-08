@@ -13,6 +13,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class MainPlayer extends SimplePlayer with Lighting {
   final Position initPosition;
+  double initialLife = 175;
   double meleeAttack = 0;
   double rangedAttack = 0;
   double stamina = 0;
@@ -33,13 +34,14 @@ class MainPlayer extends SimplePlayer with Lighting {
   bool showInitDialog = true;
   bool firstDung = true;
 
-  MainPlayer(this.initPosition, {this.showInitDialog, this.firstDung})
+  MainPlayer(this.initPosition,
+      {this.showInitDialog, this.firstDung, this.initialLife})
       : super(
           animation: PlayerSpriteSheet.simpleDirectionAnimation,
           width: DungeonMap.tileSize,
           height: DungeonMap.tileSize,
           initPosition: initPosition,
-          life: 200,
+          life: 175,
           speed: DungeonMap.tileSize * 3,
           collision: Collision(
             height: DungeonMap.tileSize / 2,
@@ -52,10 +54,11 @@ class MainPlayer extends SimplePlayer with Lighting {
       radius: width * 1.5,
       blurBorder: width * 1.5,
     );
+    this.life = initialLife ?? this.life;
     SharedPreferences.getInstance().then((prefs) {
-      final mAtk = prefs.getDouble('@JAM:MATTACK');
-      final rAtk = prefs.getDouble('@JAM:RATTACK');
-      final stm = prefs.getDouble('@JAM:STAMINA');
+      final mAtk = prefs.getDouble('@MATTACK');
+      final rAtk = prefs.getDouble('@RATTACK');
+      final stm = prefs.getDouble('@STAMINA');
       if (mAtk != null) meleeAttack = mAtk;
       if (rAtk != null) rangedAttack = rAtk;
       if (stm != null) maxStamina = stm;
@@ -126,6 +129,7 @@ class MainPlayer extends SimplePlayer with Lighting {
   void actionAttack([Direction direction]) {
     if (stamina < 15 || meleeAttack == 0) return;
 
+    Flame.audio.play('swing.wav');
     decrementStamina(15);
     this.simpleAttackMelee(
       damage: meleeAttack,
@@ -142,6 +146,7 @@ class MainPlayer extends SimplePlayer with Lighting {
   void actionAttackRange() {
     if (stamina < 25 || rangedAttack == 0) return;
 
+    Flame.audio.play('fireball.wav');
     decrementStamina(25);
     this.simpleAttackRangeByAngle(
       id: {'ddd': 'kkkkk'},
@@ -150,6 +155,7 @@ class MainPlayer extends SimplePlayer with Lighting {
       radAngleDirection: angleRadAttack,
       width: width * 0.7,
       height: width * 0.7,
+      maxTravelDistance: DungeonMap.tileSize * 3.5,
       damage: rangedAttack,
       speed: initSpeed * 2,
       collision: Collision(
@@ -244,19 +250,19 @@ class MainPlayer extends SimplePlayer with Lighting {
   void updateMeleeAttack(double attack) async {
     this.meleeAttack = attack;
     final prefs = await SharedPreferences.getInstance();
-    prefs.setDouble('@JAM:MATTACK', attack);
+    prefs.setDouble('@MATTACK', attack);
   }
 
   void updateRangeAttack(double attack) async {
     this.rangedAttack = attack;
     final prefs = await SharedPreferences.getInstance();
-    prefs.setDouble('@JAM:RATTACK', attack);
+    prefs.setDouble('@RATTACK', attack);
   }
 
   void updateMaxStamina(double stamina) async {
     this.maxStamina = stamina;
     final prefs = await SharedPreferences.getInstance();
-    prefs.setDouble('@JAM:STAMINA', stamina);
+    prefs.setDouble('@STAMINA', stamina);
   }
 
   @override

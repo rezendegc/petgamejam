@@ -121,6 +121,7 @@ class Goblin extends SimpleEnemy {
 
   @override
   void receiveDamage(double damage, dynamic from) {
+    Flame.audio.play('goblin_hit.wav');
     this.showDamage(
       damage,
       config: TextConfig(

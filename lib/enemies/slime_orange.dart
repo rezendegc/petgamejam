@@ -93,6 +93,7 @@ class SlimeOrange extends SimpleEnemy {
 
   @override
   void receiveDamage(double damage, dynamic from) {
+    Flame.audio.play('slime_hit3.wav');
     this.showDamage(
       damage,
       config: TextConfig(

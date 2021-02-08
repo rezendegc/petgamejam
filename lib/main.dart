@@ -1,3 +1,4 @@
+import 'package:bonfire/bonfire.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:petgamejam/game.dart';
@@ -7,6 +8,17 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final prefs = await SharedPreferences.getInstance();
   final map = prefs.getInt('@JAM:MAP');
+  Flame.bgm.initialize();
+  Flame.audio.loadAll([
+    'dungeon.mp3',
+    'village.mp3',
+    'fireball.wav',
+    'swing.wav',
+    'slime_hit1.wav',
+    'slime_hit2.wav',
+    'slime_hit3.wav',
+    'goblin_hit.wav',
+  ]);
 
   runApp(
     GetMaterialApp(

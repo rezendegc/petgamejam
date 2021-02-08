@@ -31,9 +31,29 @@ final initialPositions = [
   Position(37, 24),
 ];
 
-class GameTiledMap extends StatelessWidget {
+class GameTiledMap extends StatefulWidget {
   final int map;
-  const GameTiledMap({Key key, this.map = 1}) : super(key: key);
+  final double life;
+
+  const GameTiledMap({Key key, this.map = 1, this.life}) : super(key: key);
+
+  @override
+  _GameTiledMapState createState() => _GameTiledMapState();
+}
+
+class _GameTiledMapState extends State<GameTiledMap> {
+  int map;
+
+  @override
+  void initState() {
+    super.initState();
+    map = widget.map ?? 1;
+    if (map == 2) {
+      Flame.bgm.play('dungeon.mp3');
+    } else if (map == 1 || map == 5) {
+      Flame.bgm.play('village.mp3');
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -47,14 +67,15 @@ class GameTiledMap extends StatelessWidget {
             keyboardEnable: true,
           ),
           player: MainPlayer(
-            Position((initialPositions[map ?? 1].x * DungeonMap.tileSize),
-                (initialPositions[map ?? 1].y * DungeonMap.tileSize)),
-            showInitDialog: map == null,
+            Position((initialPositions[map].x * DungeonMap.tileSize),
+                (initialPositions[map].y * DungeonMap.tileSize)),
+            showInitDialog: widget.map == null,
             firstDung: map == 2,
+            initialLife: widget.life,
           ),
           interface: PlayerInterface(),
           map: TiledWorldMap(
-            'tiled/map${map ?? 1}.json',
+            'tiled/map$map.json',
             forceTileSize: Size(DungeonMap.tileSize, DungeonMap.tileSize),
           )
             ..registerObject(

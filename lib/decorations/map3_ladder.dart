@@ -48,7 +48,8 @@ class MapThreeLadder extends GameDecoration with Sensor {
       _hasTeleported = true;
       SharedPreferences.getInstance().then((pref) async {
         await pref.setInt('@JAM:MAP', 3);
-        Get.to(GameTiledMap(map: 3), preventDuplicates: false);
+        Get.to(GameTiledMap(map: 3, life: gameRef.player.life),
+            preventDuplicates: false);
       });
     }
   }
