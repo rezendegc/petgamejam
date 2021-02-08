@@ -1,0 +1,33 @@
+name: petgamejam
+description: O ambiente muda você.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bonfire: 0.8.3
+  shared_preferences: 0.5.12+4
+  get: 3.24.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/player/
+    - assets/images/npcs/
+    - assets/images/enemy/
+    - assets/images/tile/
+    - assets/images/tiled/
+    - assets/images/itens/
