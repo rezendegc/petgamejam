@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "index.html": "a3d44177892f711e74dfc9d484482dd9",
-"/": "a3d44177892f711e74dfc9d484482dd9",
+  "index.html": "49435960b272fb2b6a1cfe78d624880e",
+"/": "49435960b272fb2b6a1cfe78d624880e",
 "manifest.json": "c76cda6f8516ff9d0de26cdac7869f01",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -95,7 +95,7 @@ const RESOURCES = {
 "assets/assets/images/tiled/map2.json": "617176d2ade53a5b6c009f02664b7bd3",
 "assets/assets/images/tiled/0x72_DungeonTilesetII_v1.json": "77440230a4806d8356842d47a31426ce",
 "assets/assets/images/tiled/map5.json": "62403e25f80405015916ba30193b1af4",
-"assets/assets/images/tiled/villagets.json": "f28832226bb55e4345c95fcaa241535c",
+"assets/assets/images/tiled/villagets.json": "5cc7e0f75a10489ab35bbc8d10679bb1",
 "assets/assets/images/tiled/atlas.json": "c21a79b588da8075aeaced839c5ae3e6",
 "assets/assets/images/tiled/map4.json": "bc62eb5efe26e02c77b6c4ac95eac4a1",
 "assets/assets/images/tiled/atlas.png": "40197292ff7e2467abecb5891d5f2490",
